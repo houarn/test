@@ -1,0 +1,7 @@
+- hosts linux-servers
+  tasks
+    - name Copy bob.zip
+      copy src=optAnsiblezone-depotbob.zip dest=optdeployzonebob.zip owner=rmotaisd group=rmotaisd mode=644 backup=yes
+      notify update
+
+  handlers
