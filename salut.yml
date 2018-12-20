@@ -1,0 +1,8 @@
+---
+- name: Salut
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Salut!
+    shell: echo "Bonjour je m'appelle jean-michel"
